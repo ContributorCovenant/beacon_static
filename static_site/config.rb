@@ -47,7 +47,7 @@ end
 
 activat :deploy do |deploy|
   deploy.method = :git
-  deploy.remote = "master"
+  deploy.remote = "middleman"
   deploy.strategy = :force_push
   deploy.commit_message = "Update to directory"
 end
